@@ -1,0 +1,2185 @@
+# harnessator source manifest - registers this repository's components
+# (validate with: harnessator validate --check-paths harnessator.toml)
+kind = "source"
+schema = 1
+
+[package]
+  name = "cursor-rules"
+  description = "Components harvested by harnessator harvest."
+  homepage = "https://github.com/sanjeed5/awesome-cursor-rules-mdc"
+
+[profiles]
+  [profiles.default]
+    rule = ["actix-web", "aiohttp", "amazon-ec2", "amazon-s3", "android-sdk", "angular", "ansible", "ant-design", "anyio", "apollo-client", "apollo-graphql", "asp-net", "astro", "asyncio", "auth0", "autogen", "aws", "aws-amplify", "aws-cli", "aws-dynamodb", "aws-ecs", "aws-lambda", "aws-rds", "axios", "azure", "azure-pipelines", "bash", "beautifulsoup4", "behave", "black", "boto3", "bottle", "bun", "c-sharp", "chakra-ui", "cheerio", "circleci", "clerk", "click", "cloudflare", "codemirror", "crewai", "css", "cuda", "customtkinter", "cypress", "d3", "dask", "databricks", "datadog", "deno", "detox", "digitalocean", "discord-api", "django", "django-orm", "django-rest-framework", "docker", "drizzle", "duckdb", "elasticsearch", "electron", "elk-stack", "emacs", "esbuild", "eslint", "expo", "express", "fabric-js", "fastapi", "ffmpeg", "fiber", "firebase", "flake8", "flask", "flask-restful", "flutter", "fontawesome", "gcp", "gcp-cli", "gensim", "git", "github-actions", "gitlab-ci", "go", "godot", "google-maps-js", "gradle", "grafana", "graphql", "guzzle", "hardhat", "heroku", "htmx", "httpx", "huggingface", "hypothesis", "insomnia", "ionic", "isort", "java", "jax", "jenkins", "jest", "jetpack-compose", "jquery", "junit", "keras", "kivy", "kubernetes", "langchain", "langchain-js", "langgraph", "laravel", "lightgbm", "llama-index", "llamaindex-js", "llvm", "material-ui", "matplotlib", "maven", "microsoft-teams", "mkdocs", "mlx", "mobx", "mockito", "modal", "mongodb", "mypy", "neo4j", "nestjs", "netlify", "next-js", "nginx", "nltk", "nose2", "notion-api", "numba", "numpy", "nuxt", "openai", "opencv-python", "pandas", "pdoc", "peewee", "phoenix", "php", "pillow", "playwright", "plotly", "poetry", "pony", "postgresql", "postman", "prisma", "puppeteer", "pydantic", "pygame", "pylint", "pyqt", "pyramid", "pyright", "pyside", "pytest", "python", "pytorch", "qwik", "railway", "react", "react-mobx", "react-native", "react-query", "react-redux", "redis", "redux", "remix", "requests", "rich", "riverpod", "rocket", "ros", "ruby", "rust", "sanic", "scikit-image", "scikit-learn", "scipy", "scrapy", "seaborn", "selenium", "sentry", "servemux", "setuptools", "shadcn", "smolagents", "socket-io", "solidity", "solidjs", "spacy", "sphinx", "spring", "springboot", "sqlalchemy", "sqlite", "statsmodels", "streamlit", "stripe", "supabase", "svelte", "sveltekit", "tailwind", "tauri", "tensorflow", "terraform", "three-js", "tinygrad", "tkinter", "tornado", "tortoise-orm", "tqdm", "transformers", "trio", "trpc", "turbopack", "typer", "typescript", "unittest", "unity", "unreal-engine", "vercel", "vim", "vite", "vitest", "vllm", "vue", "vue3", "webpack", "xgboost", "zod", "zsh", "zustand"]
+
+[component]
+  [component.rule]
+    [component.rule.actix-web]
+      path = "rules/actix-web.md"
+      key = ""
+      description = "Definitive guidelines for building high-performance, maintainable, and secure web applications with actix-web 4, focusing on modern Rust best practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/actix-web.mdc"
+      [component.rule.actix-web.hint]
+        [component.rule.actix-web.hint.cursor]
+          globs = ["**/*.rs"]
+    [component.rule.aiohttp]
+      path = "rules/aiohttp.md"
+      key = ""
+      description = "This guide defines definitive best practices for using aiohttp, focusing on efficient, robust, and maintainable asynchronous HTTP client code."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/aiohttp.mdc"
+      [component.rule.aiohttp.hint]
+        [component.rule.aiohttp.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.amazon-ec2]
+      path = "rules/amazon-ec2.md"
+      key = ""
+      description = "This guide provides definitive best practices for deploying and managing Amazon EC2 instances, focusing on security, cost optimization, and operational excellence through Infrastructure as Code (IaC)."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/amazon-ec2.mdc"
+      [component.rule.amazon-ec2.hint]
+        [component.rule.amazon-ec2.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.amazon-s3]
+      path = "rules/amazon-s3.md"
+      key = ""
+      description = "This guide provides definitive best practices for interacting with Amazon S3, focusing on security, performance, cost optimization, and maintainable code in modern AWS applications."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/amazon-s3.mdc"
+      [component.rule.amazon-s3.hint]
+        [component.rule.amazon-s3.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.android-sdk]
+      path = "rules/android-sdk.md"
+      key = ""
+      description = "This guide provides definitive best practices for Android SDK development in Java, focusing on modern architecture, Jetpack libraries, performance, security, and testing."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/android-sdk.mdc"
+      [component.rule.android-sdk.hint]
+        [component.rule.android-sdk.hint.cursor]
+          globs = ["**/*.java"]
+    [component.rule.angular]
+      path = "rules/angular.md"
+      key = ""
+      description = "Provides definitive guidelines for modern Angular development (2025), focusing on best practices for code structure, component architecture, state management with signals, performance, and type safety."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/angular.mdc"
+      [component.rule.angular.hint]
+        [component.rule.angular.hint.cursor]
+          globs = ["**/*.{ts,html}"]
+    [component.rule.ansible]
+      path = "rules/ansible.md"
+      key = ""
+      description = "This guide defines definitive best practices for writing maintainable, performant, and robust Ansible code, focusing on modern YAML hygiene, role design, and CI/CD integration."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/ansible.mdc"
+      [component.rule.ansible.hint]
+        [component.rule.ansible.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.ant-design]
+      path = "rules/ant-design.md"
+      key = ""
+      description = "Definitive guidelines for building consistent, performant, and maintainable UIs with Ant Design v6.x, focusing on design tokens, layout, and component usage."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/ant-design.mdc"
+      [component.rule.ant-design.hint]
+        [component.rule.ant-design.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.anyio]
+      path = "rules/anyio.md"
+      key = ""
+      description = "Definitive guidelines for writing robust, maintainable, and backend-agnostic asynchronous Python code using AnyIO. Prioritize structured concurrency and native AnyIO primitives."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/anyio.mdc"
+      [component.rule.anyio.hint]
+        [component.rule.anyio.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.apollo-client]
+      path = "rules/apollo-client.md"
+      key = ""
+      description = "This guide defines the definitive best practices for using Apollo Client 3.x in our React applications, focusing on cache hygiene, type safety, performance, and maintainability."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/apollo-client.mdc"
+      [component.rule.apollo-client.hint]
+        [component.rule.apollo-client.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.apollo-graphql]
+      path = "rules/apollo-graphql.md"
+      key = ""
+      description = "Definitive guidelines for building robust, performant, and maintainable apollo-graphql applications using modern best practices and tooling."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/apollo-graphql.mdc"
+      [component.rule.apollo-graphql.hint]
+        [component.rule.apollo-graphql.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.asp-net]
+      path = "rules/asp-net.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for building high-performance, maintainable, and secure ASP.NET Core 9+ applications, focusing on modern C# patterns and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/asp-net.mdc"
+      [component.rule.asp-net.hint]
+        [component.rule.asp-net.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.astro]
+      path = "rules/astro.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for building high-performance Astro applications, focusing on zero-JavaScript by default, island architecture, and type safety."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/astro.mdc"
+      [component.rule.astro.hint]
+        [component.rule.astro.hint.cursor]
+          globs = ["**/*.{js,jsx,ts,tsx,astro}"]
+    [component.rule.asyncio]
+      path = "rules/asyncio.md"
+      key = ""
+      description = "Definitive guidelines for writing robust, performant, and maintainable asynchronous Python code using the asyncio standard library."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/asyncio.mdc"
+      [component.rule.asyncio.hint]
+        [component.rule.asyncio.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.auth0]
+      path = "rules/auth0.md"
+      key = ""
+      description = "Definitive guidelines for integrating Auth0 securely and efficiently, preventing common identity attacks, and leveraging modern authentication patterns."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/auth0.mdc"
+      [component.rule.auth0.hint]
+        [component.rule.auth0.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.autogen]
+      path = "rules/autogen.md"
+      key = ""
+      description = "This guide provides opinionated best practices for structuring, optimizing, and testing autogen multi-agent systems to ensure maintainability, reproducibility, and cost-efficiency."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/autogen.mdc"
+      [component.rule.autogen.hint]
+        [component.rule.autogen.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.aws]
+      path = "rules/aws.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for developing and deploying applications on AWS, emphasizing CDK v2, serverless patterns, and Well-Architected principles."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/aws.mdc"
+      [component.rule.aws.hint]
+        [component.rule.aws.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.aws-amplify]
+      path = "rules/aws-amplify.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for building scalable, maintainable full-stack applications using AWS Amplify Gen 2, focusing on TypeScript-first development and efficient cloud resource management."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/aws-amplify.mdc"
+      [component.rule.aws-amplify.hint]
+        [component.rule.aws-amplify.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.aws-cli]
+      path = "rules/aws-cli.md"
+      key = ""
+      description = "Definitive guidelines for secure, reproducible, and efficient use of the AWS CLI, emphasizing modern DevOps practices and automation."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/aws-cli.mdc"
+      [component.rule.aws-cli.hint]
+        [component.rule.aws-cli.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.aws-dynamodb]
+      path = "rules/aws-dynamodb.md"
+      key = ""
+      description = "Provides definitive best practices and actionable code examples for interacting with AWS DynamoDB using the AWS SDK v3, focusing on data modeling, performance, security, and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/aws-dynamodb.mdc"
+      [component.rule.aws-dynamodb.hint]
+        [component.rule.aws-dynamodb.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.aws-ecs]
+      path = "rules/aws-ecs.md"
+      key = ""
+      description = "Definitive guidelines for building, deploying, and operating applications on AWS ECS, emphasizing immutable containers, secure secrets management, and robust operational patterns."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/aws-ecs.mdc"
+      [component.rule.aws-ecs.hint]
+        [component.rule.aws-ecs.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.aws-lambda]
+      path = "rules/aws-lambda.md"
+      key = ""
+      description = "Definitive guidelines for writing secure, performant, and maintainable AWS Lambda functions using modern best practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/aws-lambda.mdc"
+      [component.rule.aws-lambda.hint]
+        [component.rule.aws-lambda.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.aws-rds]
+      path = "rules/aws-rds.md"
+      key = ""
+      description = "Definitive guidelines for secure, performant, and maintainable database development and operations with AWS RDS, emphasizing modern best practices and common anti-patterns."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/aws-rds.mdc"
+      [component.rule.aws-rds.hint]
+        [component.rule.aws-rds.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.axios]
+      path = "rules/axios.md"
+      key = ""
+      description = "Definitive guidelines for using axios to build robust, maintainable, and performant HTTP clients in JavaScript/React applications."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/axios.mdc"
+      [component.rule.axios.hint]
+        [component.rule.axios.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.azure]
+      path = "rules/azure.md"
+      key = ""
+      description = "Definitive guidelines for developing, deploying, and operating applications on Azure, focusing on Well-Architected Framework principles, secure coding, and efficient resource management."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/azure.mdc"
+      [component.rule.azure.hint]
+        [component.rule.azure.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.azure-pipelines]
+      path = "rules/azure-pipelines.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for writing secure, performant, and maintainable Azure Pipelines using YAML, focusing on modern CI/CD patterns and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/azure-pipelines.mdc"
+      [component.rule.azure-pipelines.hint]
+        [component.rule.azure-pipelines.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.bash]
+      path = "rules/bash.md"
+      key = ""
+      description = "Enforces modern, robust, and maintainable bash scripting practices, focusing on error handling, quoting, variable management, and code organization."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/bash.mdc"
+      [component.rule.bash.hint]
+        [component.rule.bash.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.beautifulsoup4]
+      path = "rules/beautifulsoup4.md"
+      key = ""
+      description = "This guide provides opinionated, actionable, and example-driven best practices for using beautifulsoup4 in Python web scraping projects, focusing on modern techniques and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/beautifulsoup4.mdc"
+      [component.rule.beautifulsoup4.hint]
+        [component.rule.beautifulsoup4.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.behave]
+      path = "rules/behave.md"
+      key = ""
+      description = "Definitive guidelines for writing maintainable, readable, and effective BDD tests with behave in Python, emphasizing thin steps, clear Gherkin, and robust fixture management."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/behave.mdc"
+      [component.rule.behave.hint]
+        [component.rule.behave.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.black]
+      path = "rules/black.md"
+      key = ""
+      description = "Enforce consistent Python code formatting using Black, automate style checks, and integrate seamlessly into development workflows to eliminate style debates and speed up code reviews."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/black.mdc"
+      [component.rule.black.hint]
+        [component.rule.black.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.boto3]
+      path = "rules/boto3.md"
+      key = ""
+      description = "This rule file guides developers on writing idiomatic, high-performance, and type-safe boto3 code, emphasizing client reuse, proper pagination, batch operations, and robust testing strategies."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/boto3.mdc"
+      [component.rule.boto3.hint]
+        [component.rule.boto3.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.bottle]
+      path = "rules/bottle.md"
+      key = ""
+      description = "Definitive guidelines for building maintainable, secure, and performant Bottle applications in 2025, emphasizing modern Python best practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/bottle.mdc"
+      [component.rule.bottle.hint]
+        [component.rule.bottle.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.bun]
+      path = "rules/bun.md"
+      key = ""
+      description = "Enforces modern JavaScript best practices and leverages Bun's integrated tooling for high-performance, maintainable backend services."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/bun.mdc"
+      [component.rule.bun.hint]
+        [component.rule.bun.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.c-sharp]
+      path = "rules/c-sharp.md"
+      key = ""
+      description = "This guide defines definitive C# coding standards and best practices for our team, covering naming, formatting, modern language features, performance, security, and error handling to ensure consistent, maintainable, and high-quality code."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/c-sharp.mdc"
+      [component.rule.c-sharp.hint]
+        [component.rule.c-sharp.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.chakra-ui]
+      path = "rules/chakra-ui.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for using Chakra UI effectively, focusing on token-first theming, responsive design, component architecture, and performance for React 18+ applications."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/chakra-ui.mdc"
+      [component.rule.chakra-ui.hint]
+        [component.rule.chakra-ui.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.cheerio]
+      path = "rules/cheerio.md"
+      key = ""
+      description = "Definitive guidelines for using cheerio effectively in Node.js projects, focusing on robust web scraping, performance, and maintainable code."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/cheerio.mdc"
+      [component.rule.cheerio.hint]
+        [component.rule.cheerio.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.circleci]
+      path = "rules/circleci.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for writing maintainable, secure, and performant CircleCI configurations and orbs."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/circleci.mdc"
+      [component.rule.circleci.hint]
+        [component.rule.circleci.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.clerk]
+      path = "rules/clerk.md"
+      key = ""
+      description = "This guide establishes definitive best practices for integrating Clerk, focusing on robust security, efficient session management, and secure token handling in line with modern OAuth 2.0 (RFC 9700) and JWT (RFC 8725) standards."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/clerk.mdc"
+      [component.rule.clerk.hint]
+        [component.rule.clerk.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.click]
+      path = "rules/click.md"
+      key = ""
+      description = "This guide outlines definitive best practices for building robust, maintainable, and user-friendly command-line interfaces (CLIs) using the `click` Python library, emphasizing modern patterns and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/click.mdc"
+      [component.rule.click.hint]
+        [component.rule.click.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.cloudflare]
+      path = "rules/cloudflare.md"
+      key = ""
+      description = "Definitive guidelines for building secure, performant, and maintainable applications on Cloudflare's developer platform, emphasizing tiny bundles, edge-first design, and robust security."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/cloudflare.mdc"
+      [component.rule.cloudflare.hint]
+        [component.rule.cloudflare.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.codemirror]
+      path = "rules/codemirror.md"
+      key = ""
+      description = "This guide defines best practices for building and maintaining CodeMirror 6-based editors, focusing on modularity, immutable state, extension-driven configuration, and modern JavaScript/TypeScript patterns."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/codemirror.mdc"
+      [component.rule.codemirror.hint]
+        [component.rule.codemirror.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.crewai]
+      path = "rules/crewai.md"
+      key = ""
+      description = "Definitive guidelines for building robust, maintainable, and scalable multi-agent systems using CrewAI, focusing on modularity, clear role definition, and disciplined LLM configuration."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/crewai.mdc"
+      [component.rule.crewai.hint]
+        [component.rule.crewai.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.css]
+      path = "rules/css.md"
+      key = ""
+      description = "Definitive guidelines for writing maintainable, performant, and accessible CSS. Focus on modern practices, robust architecture, and efficient styling patterns."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/css.mdc"
+      [component.rule.css.hint]
+        [component.rule.css.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.cuda]
+      path = "rules/cuda.md"
+      key = ""
+      description = "Definitive guidelines for writing high-performance, maintainable, and error-resistant CUDA C++ code, focusing on modern practices, memory management, kernel optimization, and robust error handling."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/cuda.mdc"
+      [component.rule.cuda.hint]
+        [component.rule.cuda.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.customtkinter]
+      path = "rules/customtkinter.md"
+      key = ""
+      description = "Definitive guidelines for writing clean, maintainable, and performant customtkinter applications. This rule file enforces best practices for code structure, theming, component architecture, and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/customtkinter.mdc"
+      [component.rule.customtkinter.hint]
+        [component.rule.customtkinter.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.cypress]
+      path = "rules/cypress.md"
+      key = ""
+      description = "This guide defines definitive best practices for writing maintainable, performant, and reliable Cypress end-to-end tests, leveraging modern patterns and avoiding common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/cypress.mdc"
+      [component.rule.cypress.hint]
+        [component.rule.cypress.hint.cursor]
+          globs = ["**/*.{js,ts,cy.js,cy.ts}"]
+    [component.rule.d3]
+      path = "rules/d3.md"
+      key = ""
+      description = "This guide provides definitive, actionable best practices for writing modern D3.js v7+ code, focusing on modularity, performance, and maintainability."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/d3.mdc"
+      [component.rule.d3.hint]
+        [component.rule.d3.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.dask]
+      path = "rules/dask.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for writing performant, maintainable, and idiomatic Dask code, focusing on real-world scenarios and modern patterns."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/dask.mdc"
+      [component.rule.dask.hint]
+        [component.rule.dask.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.databricks]
+      path = "rules/databricks.md"
+      key = ""
+      description = "Definitive guidelines for developing robust, performant, and secure applications and data pipelines on Databricks using modern best practices and native services."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/databricks.mdc"
+      [component.rule.databricks.hint]
+        [component.rule.databricks.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.datadog]
+      path = "rules/datadog.md"
+      key = ""
+      description = "Enforce Datadog best practices for structured logging, consistent tagging, metric governance, and CI/CD integration to ensure reliable and actionable observability across all services."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/datadog.mdc"
+      [component.rule.datadog.hint]
+        [component.rule.datadog.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.deno]
+      path = "rules/deno.md"
+      key = ""
+      description = "This guide defines definitive Deno best practices for our team, focusing on secure, maintainable, and idiomatic code using Deno's built-in tooling and modern web standards."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/deno.mdc"
+      [component.rule.deno.hint]
+        [component.rule.deno.hint.cursor]
+          globs = ["**/*.{js,jsx,ts,tsx}"]
+    [component.rule.detox]
+      path = "rules/detox.md"
+      key = ""
+      description = "This guide provides definitive, opinionated best practices for writing reliable, maintainable, and performant end-to-end tests with Detox in React Native applications."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/detox.mdc"
+      [component.rule.detox.hint]
+        [component.rule.detox.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.digitalocean]
+      path = "rules/digitalocean.md"
+      key = ""
+      description = "Definitive guidelines for building, deploying, and managing cloud-native applications on DigitalOcean, focusing on secure, scalable, and cost-efficient practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/digitalocean.mdc"
+      [component.rule.digitalocean.hint]
+        [component.rule.digitalocean.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.discord-api]
+      path = "rules/discord-api.md"
+      key = ""
+      description = "Definitive guidelines for building robust, scalable, and compliant Discord applications using the discord-api, emphasizing REST over Gateway, strong typing, and modern interaction patterns."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/discord-api.mdc"
+      [component.rule.discord-api.hint]
+        [component.rule.discord-api.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.django]
+      path = "rules/django.md"
+      key = ""
+      description = "Definitive guidelines for writing maintainable, performant, and secure Django applications, emphasizing modern best practices, clear code organization, and efficient patterns."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/django.mdc"
+      [component.rule.django.hint]
+        [component.rule.django.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.django-orm]
+      path = "rules/django-orm.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for writing efficient, maintainable, and performant Django ORM code, focusing on common pitfalls and modern patterns."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/django-orm.mdc"
+      [component.rule.django-orm.hint]
+        [component.rule.django-orm.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.django-rest-framework]
+      path = "rules/django-rest-framework.md"
+      key = ""
+      description = "Enforces modern, secure, and performant `django-rest-framework` best practices for API development, focusing on maintainability and scalability."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/django-rest-framework.mdc"
+      [component.rule.django-rest-framework.hint]
+        [component.rule.django-rest-framework.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.docker]
+      path = "rules/docker.md"
+      key = ""
+      description = "Definitive guidelines for writing efficient, secure, and maintainable Dockerfiles and Docker Compose configurations, ensuring fast builds and reliable deployments."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/docker.mdc"
+      [component.rule.docker.hint]
+        [component.rule.docker.hint.cursor]
+          globs = ["**/Dockerfile", "**/docker-compose*.{yml,yaml}"]
+    [component.rule.drizzle]
+      path = "rules/drizzle.md"
+      key = ""
+      description = "This guide provides definitive, opinionated best practices for using Drizzle ORM to build robust, type-safe, and performant database applications in TypeScript."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/drizzle.mdc"
+      [component.rule.drizzle.hint]
+        [component.rule.drizzle.hint.cursor]
+          globs = ["**/*.{ts,js}"]
+    [component.rule.duckdb]
+      path = "rules/duckdb.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for writing high-performance, maintainable, and robust DuckDB SQL queries and scripts, focusing on modern analytical workloads."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/duckdb.mdc"
+      [component.rule.duckdb.hint]
+        [component.rule.duckdb.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.elasticsearch]
+      path = "rules/elasticsearch.md"
+      key = ""
+      description = "This rule file guides developers on best practices for using Elasticsearch, focusing on data modeling, query optimization, performance, and code structure for robust, high-performance search applications."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/elasticsearch.mdc"
+      [component.rule.elasticsearch.hint]
+        [component.rule.elasticsearch.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.electron]
+      path = "rules/electron.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for building secure, performant, and maintainable Electron applications using modern patterns and consistent tooling."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/electron.mdc"
+      [component.rule.electron.hint]
+        [component.rule.electron.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.elk-stack]
+      path = "rules/elk-stack.md"
+      key = ""
+      description = "Definitive guidelines for emitting, structuring, and managing logs within the ELK stack, ensuring robust observability and efficient troubleshooting."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/elk-stack.mdc"
+      [component.rule.elk-stack.hint]
+        [component.rule.elk-stack.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.emacs]
+      path = "rules/emacs.md"
+      key = ""
+      description = "Definitive guidelines for writing clean, maintainable, and performant Emacs Lisp code and configurations, emphasizing modern best practices, robust organization, and effective tooling."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/emacs.mdc"
+      [component.rule.emacs.hint]
+        [component.rule.emacs.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.esbuild]
+      path = "rules/esbuild.md"
+      key = ""
+      description = "Definitive guidelines for configuring and using esbuild to achieve ultra-fast, optimized, and production-ready JavaScript/TypeScript builds."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/esbuild.mdc"
+      [component.rule.esbuild.hint]
+        [component.rule.esbuild.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.eslint]
+      path = "rules/eslint.md"
+      key = ""
+      description = "This guide defines the definitive ESLint configuration and best practices for our team, ensuring consistent code quality, early error detection, and seamless integration with modern JavaScript and TypeScript workflows."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/eslint.mdc"
+      [component.rule.eslint.hint]
+        [component.rule.eslint.hint.cursor]
+          globs = ["**/*.{js,jsx,ts,tsx,mts,cts}"]
+    [component.rule.expo]
+      path = "rules/expo.md"
+      key = ""
+      description = "This guide provides definitive, opinionated best practices for building robust, performant, and maintainable cross-platform mobile applications with Expo, leveraging modern React Native patterns and the latest SDK features."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/expo.mdc"
+      [component.rule.expo.hint]
+        [component.rule.expo.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.express]
+      path = "rules/express.md"
+      key = ""
+      description = "This guide defines definitive best practices for building robust, scalable, and secure Express.js applications, emphasizing modern patterns and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/express.mdc"
+      [component.rule.express.hint]
+        [component.rule.express.hint.cursor]
+          globs = ["**/*.{js,ts}"]
+    [component.rule.fabric-js]
+      path = "rules/fabric-js.md"
+      key = ""
+      description = "This guide outlines definitive best practices for using fabric-js (v6.9.0+) in JavaScript/TypeScript projects, focusing on performance, maintainability, and modern API usage."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/fabric-js.mdc"
+      [component.rule.fabric-js.hint]
+        [component.rule.fabric-js.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.fastapi]
+      path = "rules/fastapi.md"
+      key = ""
+      description = "Definitive guidelines for building high-performance, maintainable, and secure FastAPI applications using modern Python best practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/fastapi.mdc"
+      [component.rule.fastapi.hint]
+        [component.rule.fastapi.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.ffmpeg]
+      path = "rules/ffmpeg.md"
+      key = ""
+      description = "This guide defines best practices for integrating and utilizing FFmpeg within our applications, emphasizing API-first development, secure and reproducible builds, and optimal multimedia encoding techniques for quality and performance."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/ffmpeg.mdc"
+      [component.rule.ffmpeg.hint]
+        [component.rule.ffmpeg.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.fiber]
+      path = "rules/fiber.md"
+      key = ""
+      description = "Definitive guidelines for writing high-performance, secure, and maintainable Fiber applications in Go. Focuses on context immutability, robust error handling, and modular design."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/fiber.mdc"
+      [component.rule.fiber.hint]
+        [component.rule.fiber.hint.cursor]
+          globs = ["**/*.go"]
+    [component.rule.firebase]
+      path = "rules/firebase.md"
+      key = ""
+      description = "This guide provides definitive, opinionated best practices for building secure, performant, and maintainable applications with Firebase, focusing on modern patterns and avoiding common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/firebase.mdc"
+      [component.rule.firebase.hint]
+        [component.rule.firebase.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.flake8]
+      path = "rules/flake8.md"
+      key = ""
+      description = "This guide provides definitive, actionable best practices for configuring and using flake8 to enforce Python code quality, style, and catch common errors."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/flake8.mdc"
+      [component.rule.flake8.hint]
+        [component.rule.flake8.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.flask]
+      path = "rules/flask.md"
+      key = ""
+      description = "This guide provides definitive, opinionated best practices for building robust, scalable, and maintainable Flask applications, emphasizing modern patterns and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/flask.mdc"
+      [component.rule.flask.hint]
+        [component.rule.flask.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.flask-restful]
+      path = "rules/flask-restful.md"
+      key = ""
+      description = "This guide defines definitive best practices for building robust, maintainable, and modern REST APIs using Flask-RESTful, emphasizing Pydantic for validation and clear architectural patterns."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/flask-restful.mdc"
+      [component.rule.flask-restful.hint]
+        [component.rule.flask-restful.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.flutter]
+      path = "rules/flutter.md"
+      key = ""
+      description = "Definitive guidelines for writing high-quality, performant, and maintainable Flutter applications using modern Dart 3.10+ practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/flutter.mdc"
+      [component.rule.flutter.hint]
+        [component.rule.flutter.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.fontawesome]
+      path = "rules/fontawesome.md"
+      key = ""
+      description = "This guide provides definitive rules for integrating and utilizing Font Awesome 7 icons, focusing on accessibility, performance, and maintainability through Kit-based setup and modern best practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/fontawesome.mdc"
+      [component.rule.fontawesome.hint]
+        [component.rule.fontawesome.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.gcp]
+      path = "rules/gcp.md"
+      key = ""
+      description = "This guide provides definitive best practices for developing, deploying, and operating applications on Google Cloud Platform (GCP), emphasizing security, performance, and maintainability."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/gcp.mdc"
+      [component.rule.gcp.hint]
+        [component.rule.gcp.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.gcp-cli]
+      path = "rules/gcp-cli.md"
+      key = ""
+      description = "Definitive guidelines for writing robust, secure, and maintainable scripts and workflows using the Google Cloud CLI (gcloud)."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/gcp-cli.mdc"
+      [component.rule.gcp-cli.hint]
+        [component.rule.gcp-cli.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.gensim]
+      path = "rules/gensim.md"
+      key = ""
+      description = "This guide outlines definitive best practices for using the gensim library, focusing on reproducibility, efficient corpus construction, robust model training, and maintainable code for NLP topic modeling tasks."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/gensim.mdc"
+      [component.rule.gensim.hint]
+        [component.rule.gensim.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.git]
+      path = "rules/git.md"
+      key = ""
+      description = "This guide defines the definitive Git best practices for our team, ensuring clean history, efficient collaboration, and high code quality through structured workflows, commit standards, and automated hooks."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/git.mdc"
+      [component.rule.git.hint]
+        [component.rule.git.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.github-actions]
+      path = "rules/github-actions.md"
+      key = ""
+      description = "This guide provides definitive, opinionated best practices for writing robust, secure, and performant GitHub Actions workflows. Follow these rules to build maintainable CI/CD pipelines."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/github-actions.mdc"
+      [component.rule.github-actions.hint]
+        [component.rule.github-actions.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.gitlab-ci]
+      path = "rules/gitlab-ci.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for structuring, optimizing, and securing GitLab CI/CD pipelines, focusing on modern patterns and avoiding common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/gitlab-ci.mdc"
+      [component.rule.gitlab-ci.hint]
+        [component.rule.gitlab-ci.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.go]
+      path = "rules/go.md"
+      key = ""
+      description = "Definitive guidelines for writing clear, simple, performant, and maintainable Go code, adhering to Google's style and modern best practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/go.mdc"
+      [component.rule.go.hint]
+        [component.rule.go.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.godot]
+      path = "rules/godot.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for Godot 4.x development, focusing on code organization, common patterns, performance, and avoiding pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/godot.mdc"
+      [component.rule.godot.hint]
+        [component.rule.godot.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.google-maps-js]
+      path = "rules/google-maps-js.md"
+      key = ""
+      description = "This guide provides definitive best practices for integrating and managing the Google Maps JavaScript API in modern web applications, focusing on security, performance, and maintainability."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/google-maps-js.mdc"
+      [component.rule.google-maps-js.hint]
+        [component.rule.google-maps-js.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.gradle]
+      path = "rules/gradle.md"
+      key = ""
+      description = "Enforce modern Gradle build practices for Java and Android projects, focusing on Kotlin DSL, modularity, version catalogs, and performance optimizations."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/gradle.mdc"
+      [component.rule.gradle.hint]
+        [component.rule.gradle.hint.cursor]
+          globs = ["**/*.java"]
+    [component.rule.grafana]
+      path = "rules/grafana.md"
+      key = ""
+      description = "This guide defines definitive best practices for developing, structuring, and maintaining Grafana dashboards, alerts, and data sources as code, ensuring readability, performance, and scalability across teams."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/grafana.mdc"
+      [component.rule.grafana.hint]
+        [component.rule.grafana.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.graphql]
+      path = "rules/graphql.md"
+      key = ""
+      description = "Enforce modern, performant, and secure GraphQL schema design and operation best practices for maintainable and scalable APIs."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/graphql.mdc"
+      [component.rule.graphql.hint]
+        [component.rule.graphql.hint.cursor]
+          globs = ["**/*.{graphql,gql}"]
+    [component.rule.guzzle]
+      path = "rules/guzzle.md"
+      key = ""
+      description = "Definitive guidelines for using Guzzle HTTP client in PHP, focusing on robust client configuration, effective middleware, PSR-18 interoperability, and testability."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/guzzle.mdc"
+      [component.rule.guzzle.hint]
+        [component.rule.guzzle.hint.cursor]
+          globs = ["**/*.php"]
+    [component.rule.hardhat]
+      path = "rules/hardhat.md"
+      key = ""
+      description = "Ensure Hardhat projects follow modern best practices for configuration, testing, deployment, and security using TypeScript and Hardhat 3's Rust runtime."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/hardhat.mdc"
+      [component.rule.hardhat.hint]
+        [component.rule.hardhat.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.heroku]
+      path = "rules/heroku.md"
+      key = ""
+      description = "This guide outlines essential Heroku best practices, focusing on the Twelve-Factor App methodology, runtime principles, and modern cloud-native development patterns for building robust, scalable, and maintainable applications."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/heroku.mdc"
+      [component.rule.heroku.hint]
+        [component.rule.heroku.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.htmx]
+      path = "rules/htmx.md"
+      key = ""
+      description = "This guide provides definitive, opinionated best practices for using htmx, focusing on declarative markup, secure server interaction, and efficient UI updates for modern web applications."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/htmx.mdc"
+      [component.rule.htmx.hint]
+        [component.rule.htmx.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.httpx]
+      path = "rules/httpx.md"
+      key = ""
+      description = "This guide outlines definitive best practices for using httpx, Python's modern HTTP client, ensuring robust, performant, and maintainable network interactions in both synchronous and asynchronous applications."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/httpx.mdc"
+      [component.rule.httpx.hint]
+        [component.rule.httpx.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.huggingface]
+      path = "rules/huggingface.md"
+      key = ""
+      description = "Definitive guidelines for writing robust, performant, and maintainable Python code using Hugging Face Transformers and the Hugging Face Hub."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/huggingface.mdc"
+      [component.rule.huggingface.hint]
+        [component.rule.huggingface.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.hypothesis]
+      path = "rules/hypothesis.md"
+      key = ""
+      description = "Definitive guidelines for writing robust, maintainable, and performant property-based tests using Hypothesis with Python and pytest."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/hypothesis.mdc"
+      [component.rule.hypothesis.hint]
+        [component.rule.hypothesis.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.insomnia]
+      path = "rules/insomnia.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for using Insomnia IDE, focusing on modern API testing, collaboration, and CI/CD integration as of 2025."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/insomnia.mdc"
+      [component.rule.insomnia.hint]
+        [component.rule.insomnia.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.ionic]
+      path = "rules/ionic.md"
+      key = ""
+      description = "This guide provides definitive best practices for developing high-performance, maintainable, and accessible Ionic applications using modern TypeScript and web standards."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/ionic.mdc"
+      [component.rule.ionic.hint]
+        [component.rule.ionic.hint.cursor]
+          globs = ["**/*.{js,jsx,ts,tsx}"]
+    [component.rule.isort]
+      path = "rules/isort.md"
+      key = ""
+      description = "This guide provides definitive rules for configuring and using isort to maintain consistent, readable, and merge-conflict-free Python import statements."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/isort.mdc"
+      [component.rule.isort.hint]
+        [component.rule.isort.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.java]
+      path = "rules/java.md"
+      key = ""
+      description = "Definitive guidelines for writing high-quality, maintainable, and performant Java code, adhering to modern best practices (Java 21/25) and enterprise standards like Google Java Style."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/java.mdc"
+      [component.rule.java.hint]
+        [component.rule.java.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.jax]
+      path = "rules/jax.md"
+      key = ""
+      description = "Definitive guidelines for writing high-performance, functionally pure, and maintainable JAX code, focusing on common pitfalls and optimal patterns for accelerators."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/jax.mdc"
+      [component.rule.jax.hint]
+        [component.rule.jax.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.jenkins]
+      path = "rules/jenkins.md"
+      key = ""
+      description = "Definitive guidelines for writing robust, maintainable, and secure Jenkins Pipelines using modern best practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/jenkins.mdc"
+      [component.rule.jenkins.hint]
+        [component.rule.jenkins.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.jest]
+      path = "rules/jest.md"
+      key = ""
+      description = "Definitive guidelines for writing robust, maintainable, and performant Jest tests in JavaScript and TypeScript projects."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/jest.mdc"
+      [component.rule.jest.hint]
+        [component.rule.jest.hint.cursor]
+          globs = ["**/*.{js,ts,jsx,tsx}"]
+    [component.rule.jetpack-compose]
+      path = "rules/jetpack-compose.md"
+      key = ""
+      description = "Definitive guidelines for writing clean, performant, and maintainable Jetpack Compose UI code, emphasizing best practices for component design, state management, and modifier usage."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/jetpack-compose.mdc"
+      [component.rule.jetpack-compose.hint]
+        [component.rule.jetpack-compose.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.jquery]
+      path = "rules/jquery.md"
+      key = ""
+      description = "Definitive guidelines for writing performant, maintainable, and modern jQuery code, emphasizing best practices for DOM manipulation, event handling, and compatibility with jQuery 4.0 and ES6+."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/jquery.mdc"
+      [component.rule.jquery.hint]
+        [component.rule.jquery.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.junit]
+      path = "rules/junit.md"
+      key = ""
+      description = "This guide provides definitive, opinionated best practices for writing high-quality, maintainable, and effective unit tests using JUnit 5 (Jupiter) in Java projects."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/junit.mdc"
+      [component.rule.junit.hint]
+        [component.rule.junit.hint.cursor]
+          globs = ["**/*.java"]
+    [component.rule.keras]
+      path = "rules/keras.md"
+      key = ""
+      description = "Definitive guidelines for writing robust, maintainable, and high-performance Keras 3 models, emphasizing the functional API, modern training patterns, and multi-backend compatibility."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/keras.mdc"
+      [component.rule.keras.hint]
+        [component.rule.keras.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.kivy]
+      path = "rules/kivy.md"
+      key = ""
+      description = "Definitive guide for building modern, maintainable Kivy applications using best practices, focusing on KV language, KivyMD, and clear code organization."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/kivy.mdc"
+      [component.rule.kivy.hint]
+        [component.rule.kivy.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.kubernetes]
+      path = "rules/kubernetes.md"
+      key = ""
+      description = "This guide defines definitive best practices for writing, organizing, and securing Kubernetes manifests and Operators, ensuring maintainable, performant, and reliable cloud-native deployments."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/kubernetes.mdc"
+      [component.rule.kubernetes.hint]
+        [component.rule.kubernetes.hint.cursor]
+          globs = ["**/*.{yaml,yml}"]
+    [component.rule.langchain]
+      path = "rules/langchain.md"
+      key = ""
+      description = "Definitive guidelines for writing maintainable, performant, and robust LangChain applications using modern best practices (LCEL, LangGraph, Pydantic, `create_agent`)."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/langchain.mdc"
+      [component.rule.langchain.hint]
+        [component.rule.langchain.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.langchain-js]
+      path = "rules/langchain-js.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for building robust and maintainable LLM applications with langchain-js, emphasizing modularity, type safety, observability, and testing."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/langchain-js.mdc"
+      [component.rule.langchain-js.hint]
+        [component.rule.langchain-js.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.langgraph]
+      path = "rules/langgraph.md"
+      key = ""
+      description = "This guide provides definitive best practices for building robust, maintainable, and performant AI agent workflows using LangGraph."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/langgraph.mdc"
+      [component.rule.langgraph.hint]
+        [component.rule.langgraph.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.laravel]
+      path = "rules/laravel.md"
+      key = ""
+      description = "Definitive guide for writing clean, performant, and secure Laravel applications, emphasizing modern best practices and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/laravel.mdc"
+      [component.rule.laravel.hint]
+        [component.rule.laravel.hint.cursor]
+          globs = ["**/*.php"]
+    [component.rule.lightgbm]
+      path = "rules/lightgbm.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for using LightGBM in production-grade Python ML pipelines, focusing on performance, reproducibility, and maintainability."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/lightgbm.mdc"
+      [component.rule.lightgbm.hint]
+        [component.rule.lightgbm.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.llama-index]
+      path = "rules/llama-index.md"
+      key = ""
+      description = "Definitive guidelines for building production-ready LlamaIndex applications, emphasizing modularity, type safety, cloud services, and robust testing."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/llama-index.mdc"
+      [component.rule.llama-index.hint]
+        [component.rule.llama-index.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.llamaindex-js]
+      path = "rules/llamaindex-js.md"
+      key = ""
+      description = "Definitive guidelines for writing robust, performant, and maintainable `llamaindex-js` applications using modern TypeScript best practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/llamaindex-js.mdc"
+      [component.rule.llamaindex-js.hint]
+        [component.rule.llamaindex-js.hint.cursor]
+          globs = ["**/*.{js,jsx,ts,tsx}"]
+    [component.rule.llvm]
+      path = "rules/llvm.md"
+      key = ""
+      description = "This guide provides definitive, actionable best practices for developing with LLVM, focusing on code quality, performance, and robust testing using modern tools like LIT and TableGen."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/llvm.mdc"
+      [component.rule.llvm.hint]
+        [component.rule.llvm.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.material-ui]
+      path = "rules/material-ui.md"
+      key = ""
+      description = "Provides definitive guidelines for building scalable, performant, and maintainable React applications using Material-UI (MUI), focusing on modern best practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/material-ui.mdc"
+      [component.rule.material-ui.hint]
+        [component.rule.material-ui.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.matplotlib]
+      path = "rules/matplotlib.md"
+      key = ""
+      description = "This guide outlines definitive best practices for writing clean, performant, and maintainable matplotlib code, emphasizing the object-oriented API and modern data science workflows."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/matplotlib.mdc"
+      [component.rule.matplotlib.hint]
+        [component.rule.matplotlib.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.maven]
+      path = "rules/maven.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for Maven projects, focusing on reproducible builds, efficient dependency management, and high code quality."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/maven.mdc"
+      [component.rule.maven.hint]
+        [component.rule.maven.hint.cursor]
+          globs = ["**/*.java"]
+    [component.rule.microsoft-teams]
+      path = "rules/microsoft-teams.md"
+      key = ""
+      description = "This rule file provides opinionated best practices for developing and managing applications within the Microsoft Teams ecosystem, ensuring high-quality, performant, and maintainable solutions."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/microsoft-teams.mdc"
+      [component.rule.microsoft-teams.hint]
+        [component.rule.microsoft-teams.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.mkdocs]
+      path = "rules/mkdocs.md"
+      key = ""
+      description = "Definitive guidelines for writing, structuring, and maintaining high-quality MkDocs documentation using modern best practices and Material for MkDocs."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/mkdocs.mdc"
+      [component.rule.mkdocs.hint]
+        [component.rule.mkdocs.hint.cursor]
+          globs = ["**/*.{md,mdx}"]
+    [component.rule.mlx]
+      path = "rules/mlx.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for developing high-performance machine learning applications with MLX on Apple Silicon, focusing on Python and Swift."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/mlx.mdc"
+      [component.rule.mlx.hint]
+        [component.rule.mlx.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.mobx]
+      path = "rules/mobx.md"
+      key = ""
+      description = "Definitive guidelines for structuring MobX applications with React, focusing on predictable state management, optimal rendering, and modern best practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/mobx.mdc"
+      [component.rule.mobx.hint]
+        [component.rule.mobx.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.mockito]
+      path = "rules/mockito.md"
+      key = ""
+      description = "This guide provides definitive best practices for writing robust, maintainable, and readable unit tests using Mockito with JUnit 5, focusing on modern patterns and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/mockito.mdc"
+      [component.rule.mockito.hint]
+        [component.rule.mockito.hint.cursor]
+          globs = ["**/*.java"]
+    [component.rule.modal]
+      path = "rules/modal.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for writing high-performance, cost-effective, and maintainable AI/ML applications on Modal."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/modal.mdc"
+      [component.rule.modal.hint]
+        [component.rule.modal.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.mongodb]
+      path = "rules/mongodb.md"
+      key = ""
+      description = "This guide provides definitive best practices for designing, querying, and maintaining MongoDB databases to ensure high performance, scalability, and maintainability in cloud-native applications."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/mongodb.mdc"
+      [component.rule.mongodb.hint]
+        [component.rule.mongodb.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.mypy]
+      path = "rules/mypy.md"
+      key = ""
+      description = "This guide provides definitive, actionable best practices for using mypy to ensure robust static type checking in Python projects, focusing on modern patterns and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/mypy.mdc"
+      [component.rule.mypy.hint]
+        [component.rule.mypy.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.neo4j]
+      path = "rules/neo4j.md"
+      key = ""
+      description = "This guide defines the definitive best practices for writing Cypher queries and modeling data in Neo4j, ensuring readability, performance, and security for all team projects."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/neo4j.mdc"
+      [component.rule.neo4j.hint]
+        [component.rule.neo4j.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.nestjs]
+      path = "rules/nestjs.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for building robust, scalable, and maintainable NestJS applications using TypeScript, emphasizing modern patterns and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/nestjs.mdc"
+      [component.rule.nestjs.hint]
+        [component.rule.nestjs.hint.cursor]
+          globs = ["**/*.{ts,tsx}"]
+    [component.rule.netlify]
+      path = "rules/netlify.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for building, deploying, and maintaining high-performance, secure, and scalable Jamstack applications on Netlify. It focuses on modern workflows, code quality, and leveraging Netlify's edge-first architecture."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/netlify.mdc"
+      [component.rule.netlify.hint]
+        [component.rule.netlify.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.next-js]
+      path = "rules/next-js.md"
+      key = ""
+      description = "This guide defines definitive best practices for Next.js applications, focusing on the `app` directory, Server Components, performance, and maintainability. Follow these rules to build robust, scalable, and performant Next.js projects."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/next-js.mdc"
+      [component.rule.next-js.hint]
+        [component.rule.next-js.hint.cursor]
+          globs = ["**/*.{js,jsx,ts,tsx}"]
+    [component.rule.nginx]
+      path = "rules/nginx.md"
+      key = ""
+      description = "This guide defines the definitive NGINX configuration best practices for our team, focusing on modularity, security, performance, and maintainability."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/nginx.mdc"
+      [component.rule.nginx.hint]
+        [component.rule.nginx.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.nltk]
+      path = "rules/nltk.md"
+      key = ""
+      description = "This guide provides definitive, actionable best practices for writing maintainable, performant, and type-safe NLTK code in Python, emphasizing modern patterns and avoiding common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/nltk.mdc"
+      [component.rule.nltk.hint]
+        [component.rule.nltk.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.nose2]
+      path = "rules/nose2.md"
+      key = ""
+      description = "This rule file provides opinionated best practices for writing, organizing, and configuring tests using nose2, emphasizing modern Python development workflows and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/nose2.mdc"
+      [component.rule.nose2.hint]
+        [component.rule.nose2.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.notion-api]
+      path = "rules/notion-api.md"
+      key = ""
+      description = "Definitive guidelines for building secure, typed, and maintainable integrations with the Notion API using modern best practices and official SDKs."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/notion-api.mdc"
+      [component.rule.notion-api.hint]
+        [component.rule.notion-api.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.numba]
+      path = "rules/numba.md"
+      key = ""
+      description = "Definitive guidelines for writing high-performance, maintainable, and robust Numba-accelerated Python code, covering CPU and GPU targets."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/numba.mdc"
+      [component.rule.numba.hint]
+        [component.rule.numba.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.numpy]
+      path = "rules/numpy.md"
+      key = ""
+      description = "This guide provides definitive, actionable best practices for writing high-performance, maintainable, and correct NumPy code, emphasizing vectorization, explicit dtypes, and modern GPU acceleration."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/numpy.mdc"
+      [component.rule.numpy.hint]
+        [component.rule.numpy.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.nuxt]
+      path = "rules/nuxt.md"
+      key = ""
+      description = "This guide provides definitive, actionable best practices for building robust, performant, and secure Nuxt applications, emphasizing modern patterns and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/nuxt.mdc"
+      [component.rule.nuxt.hint]
+        [component.rule.nuxt.hint.cursor]
+          globs = ["**/*.{vue,js,ts}"]
+    [component.rule.openai]
+      path = "rules/openai.md"
+      key = ""
+      description = "This guide provides definitive, actionable best practices for developing with the OpenAI API, covering prompt engineering, robust client usage, agent design, and testing."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/openai.mdc"
+      [component.rule.openai.hint]
+        [component.rule.openai.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.opencv-python]
+      path = "rules/opencv-python.md"
+      key = ""
+      description = "This guide provides definitive, opinionated best practices for writing high-performance, maintainable, and robust `opencv-python` code in Python applications."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/opencv-python.mdc"
+      [component.rule.opencv-python.hint]
+        [component.rule.opencv-python.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.pandas]
+      path = "rules/pandas.md"
+      key = ""
+      description = "This guide outlines definitive best practices for writing high-performance, maintainable, and robust pandas code, focusing on modern patterns and avoiding common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/pandas.mdc"
+      [component.rule.pandas.hint]
+        [component.rule.pandas.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.pdoc]
+      path = "rules/pdoc.md"
+      key = ""
+      description = "This guide provides definitive rules for writing Python docstrings and type hints to maximize clarity and utility with pdoc, ensuring accurate and maintainable API documentation."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/pdoc.mdc"
+      [component.rule.pdoc.hint]
+        [component.rule.pdoc.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.peewee]
+      path = "rules/peewee.md"
+      key = ""
+      description = "Definitive guidelines for writing robust, maintainable, and performant Peewee ORM code in Python, covering data modeling, querying, and application structure."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/peewee.mdc"
+      [component.rule.peewee.hint]
+        [component.rule.peewee.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.phoenix]
+      path = "rules/phoenix.md"
+      key = ""
+      description = "Provides definitive guidelines for building robust, maintainable, and performant Phoenix applications using modern Elixir best practices, focusing on context-driven design, strict formatting, and effective testing."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/phoenix.mdc"
+      [component.rule.phoenix.hint]
+        [component.rule.phoenix.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.php]
+      path = "rules/php.md"
+      key = ""
+      description = "This guide provides definitive best practices for writing clean, secure, and maintainable PHP code, strictly adhering to PSR-12 and modern PHP 8.4+ features."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/php.mdc"
+      [component.rule.php.hint]
+        [component.rule.php.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.pillow]
+      path = "rules/pillow.md"
+      key = ""
+      description = "Definitive guidelines for using Pillow (Python Imaging Library) effectively, focusing on modern best practices, performance, and maintainability."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/pillow.mdc"
+      [component.rule.pillow.hint]
+        [component.rule.pillow.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.playwright]
+      path = "rules/playwright.md"
+      key = ""
+      description = "Definitive guidelines for writing robust, maintainable, and high-quality end-to-end tests with Playwright in TypeScript."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/playwright.mdc"
+      [component.rule.playwright.hint]
+        [component.rule.playwright.hint.cursor]
+          globs = ["**/*.{js,ts}"]
+    [component.rule.plotly]
+      path = "rules/plotly.md"
+      key = ""
+      description = "Definitive guidelines for writing maintainable, performant, and reproducible Plotly visualizations using modern Python best practices, especially for AI/ML workflows."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/plotly.mdc"
+      [component.rule.plotly.hint]
+        [component.rule.plotly.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.poetry]
+      path = "rules/poetry.md"
+      key = ""
+      description = "Definitive guidelines for using Poetry for Python dependency management, packaging, and project structure, emphasizing modern best practices as of 2025."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/poetry.mdc"
+      [component.rule.poetry.hint]
+        [component.rule.poetry.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.pony]
+      path = "rules/pony.md"
+      key = ""
+      description = "Definitive guidelines for writing efficient, maintainable, and secure Python applications using Pony ORM."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/pony.mdc"
+      [component.rule.pony.hint]
+        [component.rule.pony.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.postgresql]
+      path = "rules/postgresql.md"
+      key = ""
+      description = "This guide defines the definitive best practices for writing clean, performant, and maintainable PostgreSQL SQL, focusing on modern conventions and avoiding common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/postgresql.mdc"
+      [component.rule.postgresql.hint]
+        [component.rule.postgresql.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.postman]
+      path = "rules/postman.md"
+      key = ""
+      description = "This guide defines definitive best practices for structuring, scripting, and testing APIs using Postman, ensuring maintainable, robust, and collaborative API workflows."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/postman.mdc"
+      [component.rule.postman.hint]
+        [component.rule.postman.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.prisma]
+      path = "rules/prisma.md"
+      key = ""
+      description = "Enforce best practices for Prisma ORM, ensuring type-safe, performant, and maintainable database interactions in modern TypeScript applications."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/prisma.mdc"
+      [component.rule.prisma.hint]
+        [component.rule.prisma.hint.cursor]
+          globs = ["**/*.prisma"]
+    [component.rule.puppeteer]
+      path = "rules/puppeteer.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for writing robust, performant, and maintainable Puppeteer scripts for web scraping, automation, and testing. It emphasizes modern patterns like `page.locator()` and efficient resource management."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/puppeteer.mdc"
+      [component.rule.puppeteer.hint]
+        [component.rule.puppeteer.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.pydantic]
+      path = "rules/pydantic.md"
+      key = ""
+      description = "Definitive guidelines for writing robust, maintainable, and performant pydantic models in Python, focusing on v2.12.5 best practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/pydantic.mdc"
+      [component.rule.pydantic.hint]
+        [component.rule.pydantic.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.pygame]
+      path = "rules/pygame.md"
+      key = ""
+      description = "Definitive guide for building modern, performant, and maintainable Pygame applications using `pygame-gui` for UI, focusing on structure, responsive layout, theme-driven styling, and performance best practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/pygame.mdc"
+      [component.rule.pygame.hint]
+        [component.rule.pygame.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.pylint]
+      path = "rules/pylint.md"
+      key = ""
+      description = "Definitive guidelines for configuring and using pylint for deep semantic analysis and code quality in Python projects."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/pylint.mdc"
+      [component.rule.pylint.hint]
+        [component.rule.pylint.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.pyqt]
+      path = "rules/pyqt.md"
+      key = ""
+      description = "Enforce modern, maintainable, and performant PyQt application development standards by leveraging Qt Designer, Model-View architecture, and responsive threading."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/pyqt.mdc"
+      [component.rule.pyqt.hint]
+        [component.rule.pyqt.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.pyramid]
+      path = "rules/pyramid.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for building modern, maintainable, and performant applications with the Pyramid web framework."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/pyramid.mdc"
+      [component.rule.pyramid.hint]
+        [component.rule.pyramid.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.pyright]
+      path = "rules/pyright.md"
+      key = ""
+      description = "This guide provides definitive, actionable best practices for configuring and using pyright (and basedpyright) to ensure robust, type-safe Python codebases in 2025."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/pyright.mdc"
+      [component.rule.pyright.hint]
+        [component.rule.pyright.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.pyside]
+      path = "rules/pyside.md"
+      key = ""
+      description = "Definitive guide for building modern, maintainable, and performant PySide6 applications using best practices like UI/logic separation, modern controls, and robust type safety."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/pyside.mdc"
+      [component.rule.pyside.hint]
+        [component.rule.pyside.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.pytest]
+      path = "rules/pytest.md"
+      key = ""
+      description = "This guide defines our team's definitive best practices for writing fast, reliable, and maintainable tests using pytest, ensuring consistency and high code quality across projects."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/pytest.mdc"
+      [component.rule.pytest.hint]
+        [component.rule.pytest.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.python]
+      path = "rules/python.md"
+      key = ""
+      description = "This guide defines the definitive Python best practices for our team, focusing on readability, maintainability, and modern development standards. Adhere to these rules for consistent, high-quality Python code."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/python.mdc"
+      [component.rule.python.hint]
+        [component.rule.python.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.pytorch]
+      path = "rules/pytorch.md"
+      key = ""
+      description = "Definitive guidelines for writing clean, performant, and maintainable PyTorch code, emphasizing modern best practices, explicit device management, and efficient training patterns."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/pytorch.mdc"
+      [component.rule.pytorch.hint]
+        [component.rule.pytorch.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.qwik]
+      path = "rules/qwik.md"
+      key = ""
+      description = "This guide outlines definitive best practices for building high-performance, resumable Qwik applications, focusing on maximizing lazy loading and ensuring optimal developer experience."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/qwik.mdc"
+      [component.rule.qwik.hint]
+        [component.rule.qwik.hint.cursor]
+          globs = ["**/*.{js,jsx,ts,tsx}"]
+    [component.rule.railway]
+      path = "rules/railway.md"
+      key = ""
+      description = "This guide provides definitive best practices for developing and deploying applications on Railway, focusing on stateless services, reproducible builds with Nixpacks, secure configuration, and optimal performance."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/railway.mdc"
+      [component.rule.railway.hint]
+        [component.rule.railway.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.react]
+      path = "rules/react.md"
+      key = ""
+      description = "Definitive guidelines for writing idiomatic, maintainable, and performant React applications using modern best practices and TypeScript."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/react.mdc"
+      [component.rule.react.hint]
+        [component.rule.react.hint.cursor]
+          globs = ["**/*.{jsx,tsx}"]
+    [component.rule.react-mobx]
+      path = "rules/react-mobx.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for building scalable and performant React applications using MobX, focusing on modern patterns and React Compiler compatibility."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/react-mobx.mdc"
+      [component.rule.react-mobx.hint]
+        [component.rule.react-mobx.hint.cursor]
+          globs = ["**/*.{js,jsx,ts,tsx}"]
+    [component.rule.react-native]
+      path = "rules/react-native.md"
+      key = ""
+      description = "Definitive guidelines for building robust, performant, and maintainable React Native applications using modern TypeScript, functional components, and a feature-first architecture."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/react-native.mdc"
+      [component.rule.react-native.hint]
+        [component.rule.react-native.hint.cursor]
+          globs = ["**/*.{js,jsx,ts,tsx}"]
+    [component.rule.react-query]
+      path = "rules/react-query.md"
+      key = ""
+      description = "Definitive guidelines for using TanStack Query (formerly React Query) to manage server state efficiently, ensure type safety, and optimize performance in React applications."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/react-query.mdc"
+      [component.rule.react-query.hint]
+        [component.rule.react-query.hint.cursor]
+          globs = ["**/*.{js,jsx,ts,tsx}"]
+    [component.rule.react-redux]
+      path = "rules/react-redux.md"
+      key = ""
+      description = "Definitive guidelines for building robust, performant, and maintainable React-Redux applications using modern Redux Toolkit practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/react-redux.mdc"
+      [component.rule.react-redux.hint]
+        [component.rule.react-redux.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.redis]
+      path = "rules/redis.md"
+      key = ""
+      description = "This guide provides definitive, actionable best practices for using Redis effectively, focusing on data modeling, performance, security, and cluster-aware client usage to build robust and scalable applications."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/redis.mdc"
+      [component.rule.redis.hint]
+        [component.rule.redis.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.redux]
+      path = "rules/redux.md"
+      key = ""
+      description = "This guide defines the definitive best practices for using Redux in our projects, mandating Redux Toolkit (RTK) for all state management logic to ensure consistency, maintainability, and optimal performance."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/redux.mdc"
+      [component.rule.redux.hint]
+        [component.rule.redux.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.remix]
+      path = "rules/remix.md"
+      key = ""
+      description = "This guide outlines definitive best practices for building robust, performant, and maintainable applications with Remix, emphasizing co-location, type safety, and efficient data handling."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/remix.mdc"
+      [component.rule.remix.hint]
+        [component.rule.remix.hint.cursor]
+          globs = ["**/*.{js,jsx,ts,tsx}"]
+    [component.rule.requests]
+      path = "rules/requests.md"
+      key = ""
+      description = "This guide outlines definitive best practices for using the `requests` library in Python, focusing on performance, reliability, and maintainability for API clients and web interactions."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/requests.mdc"
+      [component.rule.requests.hint]
+        [component.rule.requests.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.rich]
+      path = "rules/rich.md"
+      key = ""
+      description = "Definitive guidelines for building robust, maintainable, and visually appealing Python CLI applications using the rich library."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/rich.mdc"
+      [component.rule.rich.hint]
+        [component.rule.rich.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.riverpod]
+      path = "rules/riverpod.md"
+      key = ""
+      description = "Definitive guidelines for using Riverpod in Flutter projects, focusing on modern, opinionated best practices for state management, code organization, performance, and testing."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/riverpod.mdc"
+      [component.rule.riverpod.hint]
+        [component.rule.riverpod.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.rocket]
+      path = "rules/rocket.md"
+      key = ""
+      description = "Definitive guidelines for building robust, performant, and maintainable backend services with Rocket 0.5+, focusing on modern Rust async patterns, API design, and testing."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/rocket.mdc"
+      [component.rule.rocket.hint]
+        [component.rule.rocket.hint.cursor]
+          globs = ["**/*.rs"]
+    [component.rule.ros]
+      path = "rules/ros.md"
+      key = ""
+      description = "Definitive guidelines for writing high-quality, performant, and maintainable ROS 2 code, leveraging modern C++ and Python best practices, `ament` tooling, and efficient architectural patterns like node composition and multithreaded executors."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/ros.mdc"
+      [component.rule.ros.hint]
+        [component.rule.ros.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.ruby]
+      path = "rules/ruby.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for writing modern Ruby code, focusing on maintainability, performance, and security, with a strong emphasis on RuboCop and Rails conventions."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/ruby.mdc"
+      [component.rule.ruby.hint]
+        [component.rule.ruby.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.rust]
+      path = "rules/rust.md"
+      key = ""
+      description = "Definitive guidelines for writing idiomatic, performant, and maintainable Rust code, focusing on modern best practices for structure, patterns, and error handling."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/rust.mdc"
+      [component.rule.rust.hint]
+        [component.rule.rust.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.sanic]
+      path = "rules/sanic.md"
+      key = ""
+      description = "Definitive guidelines for building high-performance, maintainable, and secure Sanic applications using modern Python async best practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/sanic.mdc"
+      [component.rule.sanic.hint]
+        [component.rule.sanic.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.scikit-image]
+      path = "rules/scikit-image.md"
+      key = ""
+      description = "This guide defines the definitive best practices for developing with scikit-image, ensuring maintainable, performant, and robust image processing code."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/scikit-image.mdc"
+      [component.rule.scikit-image.hint]
+        [component.rule.scikit-image.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.scikit-learn]
+      path = "rules/scikit-learn.md"
+      key = ""
+      description = "Definitive guidelines for writing robust, maintainable, and performant scikit-learn code, emphasizing consistent preprocessing, API adherence, and data leakage prevention."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/scikit-learn.mdc"
+      [component.rule.scikit-learn.hint]
+        [component.rule.scikit-learn.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.scipy]
+      path = "rules/scipy.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for writing robust, performant, and maintainable Python code using SciPy, aligning with modern scientific computing standards."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/scipy.mdc"
+      [component.rule.scipy.hint]
+        [component.rule.scipy.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.scrapy]
+      path = "rules/scrapy.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for building robust, high-performance, and maintainable Scrapy web crawlers, emphasizing modern Python standards and ethical scraping."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/scrapy.mdc"
+      [component.rule.scrapy.hint]
+        [component.rule.scrapy.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.seaborn]
+      path = "rules/seaborn.md"
+      key = ""
+      description = "This guide defines best practices for using Seaborn in Python for data visualization, emphasizing modern, reproducible, and performant approaches in AI/ML pipelines."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/seaborn.mdc"
+      [component.rule.seaborn.hint]
+        [component.rule.seaborn.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.selenium]
+      path = "rules/selenium.md"
+      key = ""
+      description = "Definitive guidelines for writing robust, maintainable, and readable Selenium automation scripts in Python, focusing on modern best practices for testing and web scraping."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/selenium.mdc"
+      [component.rule.selenium.hint]
+        [component.rule.selenium.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.sentry]
+      path = "rules/sentry.md"
+      key = ""
+      description = "Definitive guidelines for integrating and using Sentry for error tracking and performance monitoring, ensuring optimal setup, performance, and debuggability across all applications."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/sentry.mdc"
+      [component.rule.sentry.hint]
+        [component.rule.sentry.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.servemux]
+      path = "rules/servemux.md"
+      key = ""
+      description = "This rule file provides definitive guidelines for using Go's `http.ServeMux` effectively, leveraging Go 1.22+ features for robust, maintainable, and secure API development."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/servemux.mdc"
+      [component.rule.servemux.hint]
+        [component.rule.servemux.hint.cursor]
+          globs = ["**/*.go"]
+    [component.rule.setuptools]
+      path = "rules/setuptools.md"
+      key = ""
+      description = "This guide defines best practices for configuring Python packages using setuptools, emphasizing modern, declarative `pyproject.toml` workflows for robust and maintainable projects."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/setuptools.mdc"
+      [component.rule.setuptools.hint]
+        [component.rule.setuptools.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.shadcn]
+      path = "rules/shadcn.md"
+      key = ""
+      description = "This guide defines definitive best practices for developing with shadcn/ui, ensuring consistent code organization, robust TypeScript, optimal performance, and accessible, maintainable components."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/shadcn.mdc"
+      [component.rule.shadcn.hint]
+        [component.rule.shadcn.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.smolagents]
+      path = "rules/smolagents.md"
+      key = ""
+      description = "Definitive guidelines for building robust, performant, and maintainable AI agents using smolagents, focusing on practical patterns and avoiding common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/smolagents.mdc"
+      [component.rule.smolagents.hint]
+        [component.rule.smolagents.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.socket-io]
+      path = "rules/socket-io.md"
+      key = ""
+      description = "Definitive guidelines for building robust, performant, and maintainable real-time applications using Socket.IO v4.x, emphasizing modern JavaScript practices and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/socket-io.mdc"
+      [component.rule.socket-io.hint]
+        [component.rule.socket-io.hint.cursor]
+          globs = ["**/*.{js,jsx,ts,tsx}"]
+    [component.rule.solidity]
+      path = "rules/solidity.md"
+      key = ""
+      description = "Definitive guidelines for writing secure, maintainable, and gas-efficient Solidity smart contracts, emphasizing modern best practices and security-first development."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/solidity.mdc"
+      [component.rule.solidity.hint]
+        [component.rule.solidity.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.solidjs]
+      path = "rules/solidjs.md"
+      key = ""
+      description = "This guide provides definitive, opinionated best practices for writing high-performance, maintainable SolidJS applications, focusing on reactivity, component architecture, and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/solidjs.mdc"
+      [component.rule.solidjs.hint]
+        [component.rule.solidjs.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.spacy]
+      path = "rules/spacy.md"
+      key = ""
+      description = "This guide provides definitive, opinionated best practices for writing maintainable, performant, and robust spaCy code in Python, focusing on modern patterns and avoiding common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/spacy.mdc"
+      [component.rule.spacy.hint]
+        [component.rule.spacy.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.sphinx]
+      path = "rules/sphinx.md"
+      key = ""
+      description = "This rule file provides opinionated, practical guidelines for setting up, writing, and maintaining Python project documentation using Sphinx, emphasizing modern best practices, clear structure, and automated validation."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/sphinx.mdc"
+      [component.rule.sphinx.hint]
+        [component.rule.sphinx.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.spring]
+      path = "rules/spring.md"
+      key = ""
+      description = "Definitive guidelines for building robust, maintainable, and performant Spring Boot applications using modern best practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/spring.mdc"
+      [component.rule.spring.hint]
+        [component.rule.spring.hint.cursor]
+          globs = ["**/*.java"]
+    [component.rule.springboot]
+      path = "rules/springboot.md"
+      key = ""
+      description = "Enforces modern Spring Boot best practices for Java applications, covering code structure, dependency injection, API design, error handling, and testing to ensure maintainable, performant, and secure microservices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/springboot.mdc"
+      [component.rule.springboot.hint]
+        [component.rule.springboot.hint.cursor]
+          globs = ["**/*.java"]
+    [component.rule.sqlalchemy]
+      path = "rules/sqlalchemy.md"
+      key = ""
+      description = "This guide enforces modern SQLAlchemy 2.x best practices for Python applications, ensuring type-safe, performant, and maintainable database interactions."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/sqlalchemy.mdc"
+      [component.rule.sqlalchemy.hint]
+        [component.rule.sqlalchemy.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.sqlite]
+      path = "rules/sqlite.md"
+      key = ""
+      description = "Definitive guidelines for writing robust, performant, and secure SQLite code. Focuses on schema design, query optimization, and transaction management."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/sqlite.mdc"
+      [component.rule.sqlite.hint]
+        [component.rule.sqlite.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.statsmodels]
+      path = "rules/statsmodels.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for using statsmodels in Python, focusing on code organization, common patterns, performance, and modern development workflows to ensure robust and reproducible statistical analysis."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/statsmodels.mdc"
+      [component.rule.statsmodels.hint]
+        [component.rule.statsmodels.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.streamlit]
+      path = "rules/streamlit.md"
+      key = ""
+      description = "Enforce modern, performant, and maintainable Streamlit development practices, focusing on caching, modularity, and robust dependency management."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/streamlit.mdc"
+      [component.rule.streamlit.hint]
+        [component.rule.streamlit.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.stripe]
+      path = "rules/stripe.md"
+      key = ""
+      description = "Definitive guidelines for building robust, secure, and efficient Stripe integrations using modern API practices (v2, Checkout Sessions, Payment Intents, Elements) and essential safeguards like idempotency and webhook verification."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/stripe.mdc"
+      [component.rule.stripe.hint]
+        [component.rule.stripe.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.supabase]
+      path = "rules/supabase.md"
+      key = ""
+      description = "Comprehensive guidelines for writing high-performance, secure, and maintainable Supabase applications, covering SQL style, data modeling, security, and testing."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/supabase.mdc"
+      [component.rule.supabase.hint]
+        [component.rule.supabase.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.svelte]
+      path = "rules/svelte.md"
+      key = ""
+      description = "Definitive guide for writing clean, performant, and maintainable Svelte 5 applications using the runes API and modern TypeScript practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/svelte.mdc"
+      [component.rule.svelte.hint]
+        [component.rule.svelte.hint.cursor]
+          globs = ["**/*.{svelte,js,ts}"]
+    [component.rule.sveltekit]
+      path = "rules/sveltekit.md"
+      key = ""
+      description = "Definitive guidelines for building scalable, performant, and maintainable SvelteKit applications using modern best practices, TypeScript, and Svelte 5 runes."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/sveltekit.mdc"
+      [component.rule.sveltekit.hint]
+        [component.rule.sveltekit.hint.cursor]
+          globs = ["**/*.{js,jsx,ts,tsx,svelte}"]
+    [component.rule.tailwind]
+      path = "rules/tailwind.md"
+      key = ""
+      description = "Provides definitive best practices for using Tailwind CSS, focusing on maintainability, performance, and scalability in modern web development."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/tailwind.mdc"
+      [component.rule.tailwind.hint]
+        [component.rule.tailwind.hint.cursor]
+          globs = ["**/*.{css,html,jsx,tsx,vue}"]
+    [component.rule.tauri]
+      path = "rules/tauri.md"
+      key = ""
+      description = "This guide provides definitive, actionable best practices for writing robust, performant, and secure Rust backend code in Tauri applications, focusing on modern patterns and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/tauri.mdc"
+      [component.rule.tauri.hint]
+        [component.rule.tauri.hint.cursor]
+          globs = ["**/*.rs"]
+    [component.rule.tensorflow]
+      path = "rules/tensorflow.md"
+      key = ""
+      description = "This guide defines the definitive best practices for writing TensorFlow code, focusing on `tf.keras` for models, `tf.data` for input pipelines, and `@tf.function` for performance, ensuring reproducible, scalable, and production-ready ML systems."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/tensorflow.mdc"
+      [component.rule.tensorflow.hint]
+        [component.rule.tensorflow.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.terraform]
+      path = "rules/terraform.md"
+      key = ""
+      description = "Definitive guidelines for writing maintainable, secure, and scalable Terraform configurations. Focuses on structure, naming, state management, and automation."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/terraform.mdc"
+      [component.rule.terraform.hint]
+        [component.rule.terraform.hint.cursor]
+          globs = ["**/*.tf"]
+    [component.rule.three-js]
+      path = "rules/three-js.md"
+      key = ""
+      description = "Enforce modern, performant, and maintainable three-js development practices, focusing on WebGL error handling, efficient asset management, and render loop optimization."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/three-js.mdc"
+      [component.rule.three-js.hint]
+        [component.rule.three-js.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.tinygrad]
+      path = "rules/tinygrad.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for developing with tinygrad, focusing on lazy execution, performance, and code structure."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/tinygrad.mdc"
+      [component.rule.tinygrad.hint]
+        [component.rule.tinygrad.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.tkinter]
+      path = "rules/tkinter.md"
+      key = ""
+      description = "Definitive guidelines for building modern, maintainable, and performant Tkinter applications using best practices, ttk, and ttkbootstrap."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/tkinter.mdc"
+      [component.rule.tkinter.hint]
+        [component.rule.tkinter.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.tornado]
+      path = "rules/tornado.md"
+      key = ""
+      description = "Definitive guidelines for writing high-performance, secure, and maintainable Tornado applications using modern Python 3.9+ async/await patterns and best practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/tornado.mdc"
+      [component.rule.tornado.hint]
+        [component.rule.tornado.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.tortoise-orm]
+      path = "rules/tortoise-orm.md"
+      key = ""
+      description = "Definitive guidelines for using Tortoise ORM effectively, focusing on async patterns, robust model design, efficient querying, and production-ready migrations."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/tortoise-orm.mdc"
+      [component.rule.tortoise-orm.hint]
+        [component.rule.tortoise-orm.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.tqdm]
+      path = "rules/tqdm.md"
+      key = ""
+      description = "This guide defines best practices for using the `tqdm` library to implement clear, efficient, and robust progress bars in Python applications, ensuring consistent user feedback and maintainable code."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/tqdm.mdc"
+      [component.rule.tqdm.hint]
+        [component.rule.tqdm.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.transformers]
+      path = "rules/transformers.md"
+      key = ""
+      description = "Definitive guidelines for writing high-quality, maintainable, and performant code with 🤗 Transformers, ensuring consistency and adherence to 2025 best practices."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/transformers.mdc"
+      [component.rule.transformers.hint]
+        [component.rule.transformers.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.trio]
+      path = "rules/trio.md"
+      key = ""
+      description = "This guide enforces best practices for using Trio, Python's structured concurrency library, ensuring robust, type-safe, and performant asynchronous applications."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/trio.mdc"
+      [component.rule.trio.hint]
+        [component.rule.trio.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.trpc]
+      path = "rules/trpc.md"
+      key = ""
+      description = "Definitive guidelines for building robust, type-safe, and maintainable tRPC APIs, emphasizing modularity, Zod validation, and efficient error handling."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/trpc.mdc"
+      [component.rule.trpc.hint]
+        [component.rule.trpc.hint.cursor]
+          globs = ["**/*.{ts,tsx}"]
+    [component.rule.turbopack]
+      path = "rules/turbopack.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for developing high-performance, maintainable, and secure applications using Turbopack as the default bundler in Next.js 16+."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/turbopack.mdc"
+      [component.rule.turbopack.hint]
+        [component.rule.turbopack.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.typer]
+      path = "rules/typer.md"
+      key = ""
+      description = "Definitive guidelines for building robust, maintainable, and user-friendly command-line interfaces with Typer, emphasizing modern Python type hints and modular design."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/typer.mdc"
+      [component.rule.typer.hint]
+        [component.rule.typer.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.typescript]
+      path = "rules/typescript.md"
+      key = ""
+      description = "Enforce modern TypeScript best practices for robust, type-safe JavaScript applications, focusing on strictness, clear type definitions, and runtime validation."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/typescript.mdc"
+      [component.rule.typescript.hint]
+        [component.rule.typescript.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.unittest]
+      path = "rules/unittest.md"
+      key = ""
+      description = "Definitive guidelines for writing robust, maintainable, and idiomatic `unittest` tests in Python. Focuses on structure, naming, assertions, mocking, and performance."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/unittest.mdc"
+      [component.rule.unittest.hint]
+        [component.rule.unittest.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.unity]
+      path = "rules/unity.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for Unity C# development, focusing on code organization, performance, and common pitfalls to ensure a clean, maintainable, and performant codebase."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/unity.mdc"
+      [component.rule.unity.hint]
+        [component.rule.unity.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.unreal-engine]
+      path = "rules/unreal-engine.md"
+      key = ""
+      description = "Definitive guidelines for writing consistent, performant, and maintainable C++ and Blueprint code in Unreal Engine 5.x projects."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/unreal-engine.mdc"
+      [component.rule.unreal-engine.hint]
+        [component.rule.unreal-engine.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.vercel]
+      path = "rules/vercel.md"
+      key = ""
+      description = "This guide outlines definitive best practices for developing and deploying applications on Vercel, ensuring optimal performance, security, and cost-efficiency."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/vercel.mdc"
+      [component.rule.vercel.hint]
+        [component.rule.vercel.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.vim]
+      path = "rules/vim.md"
+      key = ""
+      description = "Definitive guidelines for configuring and using Vim/Neovim as a high-performance, terminal-centric IDE, emphasizing modern practices, efficient plugin management, and advanced workflows."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/vim.mdc"
+      [component.rule.vim.hint]
+        [component.rule.vim.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.vite]
+      path = "rules/vite.md"
+      key = ""
+      description = "This guide provides definitive best practices for developing high-performance, maintainable applications with Vite, focusing on optimal configuration, code structure, and testing."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/vite.mdc"
+      [component.rule.vite.hint]
+        [component.rule.vite.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.vitest]
+      path = "rules/vitest.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for writing fast, reliable, and maintainable unit and integration tests using Vitest in modern JavaScript and TypeScript projects."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/vitest.mdc"
+      [component.rule.vitest.hint]
+        [component.rule.vitest.hint.cursor]
+          globs = ["**/*.{js,ts,jsx,tsx}"]
+    [component.rule.vllm]
+      path = "rules/vllm.md"
+      key = ""
+      description = "Definitive guidelines for writing high-performance, maintainable, and production-ready LLM inference code using vLLM."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/vllm.mdc"
+      [component.rule.vllm.hint]
+        [component.rule.vllm.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.vue]
+      path = "rules/vue.md"
+      key = ""
+      description = "This guide provides definitive, opinionated best practices for writing clean, performant, and maintainable Vue 3 applications using modern patterns like the Composition API and Pinia."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/vue.mdc"
+      [component.rule.vue.hint]
+        [component.rule.vue.hint.cursor]
+          globs = ["**/*.{vue,js,ts}"]
+    [component.rule.vue3]
+      path = "rules/vue3.md"
+      key = ""
+      description = "Definitive guidelines for building maintainable, performant, and type-safe Vue 3 applications using modern best practices, Composition API, and TypeScript."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/vue3.mdc"
+      [component.rule.vue3.hint]
+        [component.rule.vue3.hint.cursor]
+          globs = ["**/*.{js,jsx,ts,tsx,vue}"]
+    [component.rule.webpack]
+      path = "rules/webpack.md"
+      key = ""
+      description = "This guide provides opinionated, actionable best practices for configuring webpack, focusing on performance, maintainability, and modern development workflows in 2025."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/webpack.mdc"
+      [component.rule.webpack.hint]
+        [component.rule.webpack.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
+    [component.rule.xgboost]
+      path = "rules/xgboost.md"
+      key = ""
+      description = "Definitive guidelines for writing robust, performant, and maintainable Python code using the xgboost library, focusing on modern best practices and common pitfalls."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/xgboost.mdc"
+      [component.rule.xgboost.hint]
+        [component.rule.xgboost.hint.cursor]
+          globs = ["**/*.py"]
+    [component.rule.zod]
+      path = "rules/zod.md"
+      key = ""
+      description = "This guide outlines definitive best practices for using Zod in TypeScript projects, ensuring robust runtime validation, superior type safety, and maintainable schemas."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/zod.mdc"
+      [component.rule.zod.hint]
+        [component.rule.zod.hint.cursor]
+          globs = ["**/*.{ts,tsx}"]
+    [component.rule.zsh]
+      path = "rules/zsh.md"
+      key = ""
+      description = "This guide defines the definitive best practices for writing Zsh scripts and configuration files, ensuring consistency, robustness, and maintainability across our projects."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/zsh.mdc"
+      [component.rule.zsh.hint]
+        [component.rule.zsh.hint.cursor]
+          globs = ["**/*"]
+    [component.rule.zustand]
+      path = "rules/zustand.md"
+      key = ""
+      description = "Definitive guidelines for using Zustand in React projects, focusing on type safety, modularity, performance, and maintainability with practical code examples."
+      always = false
+      origin = "harvested from https://github.com/sanjeed5/awesome-cursor-rules-mdc@8fbf26908531:rules-mdc/zustand.mdc"
+      [component.rule.zustand.hint]
+        [component.rule.zustand.hint.cursor]
+          globs = ["**/*.{js,jsx}"]
