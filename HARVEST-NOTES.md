@@ -1,0 +1,62 @@
+# Harvest notes - cursor-rules bridge
+
+Harvested 2026-10-30 from https://github.com/sanjeed5/awesome-cursor-rules-mdc
+(rules-mdc/ current set only; rules-v0-deprecated/ and the single
+.cursor/rules/python.mdc are NOT part of this bridge).
+
+The findings below are sanitize gate output, reviewed before publishing:
+all are documentation examples (placeholder passwords, user:pass@ URL
+samples, API_KEY= shapes in how-to text) - no real credentials.
+
+
+  secret-assignment at autogen.mdc:241 api_key"…_KEY (rule/autogen)
+  secret-assignment at aws-ecs.mdc:123 secret:m…cdef (rule/aws-ecs)
+  secret-assignment at aws-ecs.mdc:136 secret:m…oken (rule/aws-ecs)
+  secret-assignment at axios.mdc:124 token = …Item (rule/axios)
+  personal-path at azure-pipelines.mdc:345 /hom*** (rule/azure-pipelines)
+  secret-assignment at clerk.mdc:147 token = …tion (rule/clerk)
+  credentials-in-url at cloudflare.mdc:46 ://user:…ass@ (rule/cloudflare)
+  credentials-in-url at digitalocean.mdc:18 ://doadm…ORD@ (rule/digitalocean)
+  credentials-in-url at digitalocean.mdc:24 ://doadm…ORD@ (rule/digitalocean)
+  credentials-in-url at django.mdc:66 ://user:…ass@ (rule/django)
+  credentials-in-url at docker.mdc:202 ://user:…ord@ (rule/docker)
+  secret-assignment at docker.mdc:228 API_KEY:…y123 (rule/docker)
+  secret-assignment at elasticsearch.mdc:261 api_key=…_KEY (rule/elasticsearch)
+  credentials-in-url at express.mdc:101 ://user:…ord@ (rule/express)
+  credentials-in-url at express.mdc:109 ://user:…ord@ (rule/express)
+  credentials-in-url at fastapi.mdc:211 ://user:…ass@ (rule/fastapi)
+  credentials-in-url at fastapi.mdc:230 ://user:…ass@ (rule/fastapi)
+  credentials-in-url at flask.mdc:90 ://user:…ord@ (rule/flask)
+  secret-assignment at flask.mdc:192 password…data (rule/flask)
+  secret-assignment at google-maps-js.mdc:22 API_KEY …_KEY (rule/google-maps-js)
+  secret-assignment at google-maps-js.mdc:101 API_KEY …HERE (rule/google-maps-js)
+  secret-assignment at google-maps-js.mdc:114 API_KEY …_KEY (rule/google-maps-js)
+  secret-assignment at google-maps-js.mdc:140 apiKey: …_KEY (rule/google-maps-js)
+  secret-assignment at guzzle.mdc:124 token = …here (rule/guzzle)
+  secret-assignment at hardhat.mdc:70 apiKey: …_KEY (rule/hardhat)
+  credentials-in-url at heroku.mdc:90 ://user:…ass@ (rule/heroku)
+  secret-assignment at heroku.mdc:91 API_KEY …-key (rule/heroku)
+  secret-assignment at heroku.mdc:98 API_KEY …_KEY (rule/heroku)
+  secret-assignment at heroku.mdc:141 secret: …CRET (rule/heroku)
+  secret-assignment at insomnia.mdc:169 token = …oken (rule/insomnia)
+  secret-assignment at llamaindex-js.mdc:391 apiKey: …_KEY (rule/llamaindex-js)
+  secret-assignment at llamaindex-js.mdc:398 apiKey: …HERE (rule/llamaindex-js)
+  secret-assignment at netlify.mdc:67 API_KEY …_KEY (rule/netlify)
+  secret-assignment at netlify.mdc:87 API_KEY …HERE (rule/netlify)
+  secret-assignment at openai.mdc:24 api_key=…_KEY (rule/openai)
+  secret-assignment at railway.mdc:194 API_KEY …-123 (rule/railway)
+  secret-assignment at railway.mdc:203 API_KEY …_KEY (rule/railway)
+  secret-assignment at react-native.mdc:201 token = …oken (rule/react-native)
+  secret-assignment at remix.mdc:226 token = …Item (rule/remix)
+  secret-assignment at remix.mdc:235 token = …okie (rule/remix)
+  secret-assignment at requests.mdc:254 AUTH_TOK…_123 (rule/requests)
+  credentials-in-url at rocket.mdc:315 ://user:…ass@ (rule/rocket)
+  credentials-in-url at scrapy.mdc:203 ://user:…ass@ (rule/scrapy)
+  credentials-in-url at scrapy.mdc:204 ://user:…ass@ (rule/scrapy)
+  secret-assignment at socket-io.mdc:52 token: s…oken (rule/socket-io)
+  secret-assignment at socket-io.mdc:106 token: "…oken (rule/socket-io)
+  secret-assignment at terraform.mdc:246 password…d123 (rule/terraform)
+  secret-assignment at terraform.mdc:261 password…word (rule/terraform)
+  credentials-in-url at tortoise-orm.mdc:67 ://user:…ass@ (rule/tortoise-orm)
+  secret-assignment at vercel.mdc:236 API_KEY …_key (rule/vercel)
+  secret-assignment at vercel.mdc:244 API_KEY …_KEY (rule/vercel)

@@ -5,12 +5,24 @@ schema = 1
 
 [package]
   name = "cursor-rules"
-  description = "Components harvested by harnessator harvest."
+  description = "sanjeed5/awesome-cursor-rules-mdc - curated Cursor AI rule files (CC0), harvested unchanged with upstream license; per-stack profiles in this manifest."
   homepage = "https://github.com/sanjeed5/awesome-cursor-rules-mdc"
+  license = "CC0-1.0"
+  version = "0.1.0"
 
 [profiles]
-  [profiles.default]
-    rule = ["actix-web", "aiohttp", "amazon-ec2", "amazon-s3", "android-sdk", "angular", "ansible", "ant-design", "anyio", "apollo-client", "apollo-graphql", "asp-net", "astro", "asyncio", "auth0", "autogen", "aws", "aws-amplify", "aws-cli", "aws-dynamodb", "aws-ecs", "aws-lambda", "aws-rds", "axios", "azure", "azure-pipelines", "bash", "beautifulsoup4", "behave", "black", "boto3", "bottle", "bun", "c-sharp", "chakra-ui", "cheerio", "circleci", "clerk", "click", "cloudflare", "codemirror", "crewai", "css", "cuda", "customtkinter", "cypress", "d3", "dask", "databricks", "datadog", "deno", "detox", "digitalocean", "discord-api", "django", "django-orm", "django-rest-framework", "docker", "drizzle", "duckdb", "elasticsearch", "electron", "elk-stack", "emacs", "esbuild", "eslint", "expo", "express", "fabric-js", "fastapi", "ffmpeg", "fiber", "firebase", "flake8", "flask", "flask-restful", "flutter", "fontawesome", "gcp", "gcp-cli", "gensim", "git", "github-actions", "gitlab-ci", "go", "godot", "google-maps-js", "gradle", "grafana", "graphql", "guzzle", "hardhat", "heroku", "htmx", "httpx", "huggingface", "hypothesis", "insomnia", "ionic", "isort", "java", "jax", "jenkins", "jest", "jetpack-compose", "jquery", "junit", "keras", "kivy", "kubernetes", "langchain", "langchain-js", "langgraph", "laravel", "lightgbm", "llama-index", "llamaindex-js", "llvm", "material-ui", "matplotlib", "maven", "microsoft-teams", "mkdocs", "mlx", "mobx", "mockito", "modal", "mongodb", "mypy", "neo4j", "nestjs", "netlify", "next-js", "nginx", "nltk", "nose2", "notion-api", "numba", "numpy", "nuxt", "openai", "opencv-python", "pandas", "pdoc", "peewee", "phoenix", "php", "pillow", "playwright", "plotly", "poetry", "pony", "postgresql", "postman", "prisma", "puppeteer", "pydantic", "pygame", "pylint", "pyqt", "pyramid", "pyright", "pyside", "pytest", "python", "pytorch", "qwik", "railway", "react", "react-mobx", "react-native", "react-query", "react-redux", "redis", "redux", "remix", "requests", "rich", "riverpod", "rocket", "ros", "ruby", "rust", "sanic", "scikit-image", "scikit-learn", "scipy", "scrapy", "seaborn", "selenium", "sentry", "servemux", "setuptools", "shadcn", "smolagents", "socket-io", "solidity", "solidjs", "spacy", "sphinx", "spring", "springboot", "sqlalchemy", "sqlite", "statsmodels", "streamlit", "stripe", "supabase", "svelte", "sveltekit", "tailwind", "tauri", "tensorflow", "terraform", "three-js", "tinygrad", "tkinter", "tornado", "tortoise-orm", "tqdm", "transformers", "trio", "trpc", "turbopack", "typer", "typescript", "unittest", "unity", "unreal-engine", "vercel", "vim", "vite", "vitest", "vllm", "vue", "vue3", "webpack", "xgboost", "zod", "zsh", "zustand"]
+  [profiles."essentials"]
+    rule = ["git", "typescript", "python"]
+  [profiles."web-react"]
+    rule = ["react", "next-js", "typescript", "tailwind", "vite", "shadcn", "zustand", "trpc"]
+  [profiles."python-data"]
+    rule = ["python", "pandas", "numpy", "scikit-learn", "matplotlib", "sqlalchemy", "pytest"]
+  [profiles."backend-go"]
+    rule = ["go", "postgresql", "redis", "servemux"]
+  [profiles."devops"]
+    rule = ["docker", "kubernetes", "terraform", "ansible", "nginx", "github-actions"]
+  [profiles."ml-core"]
+    rule = ["python", "pytorch", "transformers", "huggingface", "cuda"]
 
 [component]
   [component.rule]
