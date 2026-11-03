@@ -6,23 +6,23 @@ schema = 1
 [package]
   name = "cursor-rules"
   description = "sanjeed5/awesome-cursor-rules-mdc - curated Cursor AI rule files (CC0), harvested unchanged with upstream license; per-stack profiles in this manifest."
-  homepage = "https://github.com/sanjeed5/awesome-cursor-rules-mdc"
-  license = "CC0-1.0"
   version = "0.1.0"
+  license = "CC0-1.0"
+  homepage = "https://github.com/sanjeed5/awesome-cursor-rules-mdc"
 
 [profiles]
-  [profiles."essentials"]
-    rule = ["git", "typescript", "python"]
-  [profiles."web-react"]
-    rule = ["react", "next-js", "typescript", "tailwind", "vite", "shadcn", "zustand", "trpc"]
-  [profiles."python-data"]
-    rule = ["python", "pandas", "numpy", "scikit-learn", "matplotlib", "sqlalchemy", "pytest"]
-  [profiles."backend-go"]
+  [profiles.backend-go]
     rule = ["go", "postgresql", "redis", "servemux"]
-  [profiles."devops"]
+  [profiles.devops]
     rule = ["docker", "kubernetes", "terraform", "ansible", "nginx", "github-actions"]
-  [profiles."ml-core"]
+  [profiles.essentials]
+    rule = ["git", "typescript", "python"]
+  [profiles.ml-core]
     rule = ["python", "pytorch", "transformers", "huggingface", "cuda"]
+  [profiles.python-data]
+    rule = ["python", "pandas", "numpy", "scikit-learn", "matplotlib", "sqlalchemy", "pytest"]
+  [profiles.web-react]
+    rule = ["react", "next-js", "typescript", "tailwind", "vite", "shadcn", "zustand", "trpc"]
 
 [component]
   [component.rule]

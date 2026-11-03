@@ -1,0 +1,992 @@
+{
+  "schema": 1,
+  "output": "/tmp/bridge-CURSOR_RULES-c0rwv8i6/bridge",
+  "donors": [
+    {
+      "root": "/tmp/bridge-CURSOR_RULES-c0rwv8i6/upstream/rules-mdc",
+      "residual": [
+        {
+          "path": "actix-web.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "aiohttp.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "amazon-ec2.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "amazon-s3.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "android-sdk.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "angular.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "ansible.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "ant-design.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "anyio.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "apollo-client.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "apollo-graphql.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "asp-net.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "astro.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "asyncio.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "auth0.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "autogen.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "aws-amplify.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "aws-cli.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "aws-dynamodb.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "aws-ecs.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "aws-lambda.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "aws-rds.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "aws.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "axios.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "azure-pipelines.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "azure.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "bash.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "beautifulsoup4.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "behave.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "black.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "boto3.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "bottle.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "bun.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "c-sharp.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "chakra-ui.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "cheerio.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "circleci.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "clerk.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "click.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "cloudflare.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "codemirror.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "crewai.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "css.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "cuda.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "customtkinter.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "cypress.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "d3.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "dask.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "databricks.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "datadog.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "deno.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "detox.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "digitalocean.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "discord-api.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "django-orm.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "django-rest-framework.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "django.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "docker.md",
+          "why": "unexpected extension \".md\" (want \".mdc\""
+        },
+        {
+          "path": "docker.md",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "docker.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "drizzle.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "duckdb.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "elasticsearch.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "electron.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "elk-stack.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "emacs.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "esbuild.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "eslint.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "expo.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "express.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "fabric-js.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "fastapi.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "ffmpeg.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "fiber.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "firebase.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "flake8.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "flask-restful.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "flask.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "flutter.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "fontawesome.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "gcp-cli.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "gcp.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "gensim.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "git.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "github-actions.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "gitlab-ci.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "go.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "godot.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "google-maps-js.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "gradle.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "grafana.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "graphql.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "guzzle.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "hardhat.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "heroku.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "htmx.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "httpx.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "huggingface.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "hypothesis.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "insomnia.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "ionic.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "isort.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "java.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "jax.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "jenkins.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "jest.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "jetpack-compose.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "jquery.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "junit.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "keras.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "kivy.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "kubernetes.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "langchain-js.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "langchain.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "langgraph.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "laravel.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "lightgbm.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "llama-index.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "llamaindex-js.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "llvm.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "material-ui.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "matplotlib.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "maven.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "microsoft-teams.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "mkdocs.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "mlx.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "mobx.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "mockito.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "modal.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "mongodb.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "mypy.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "neo4j.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "nestjs.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "netlify.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "next-js.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "nginx.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "nltk.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "nose2.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "notion-api.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "numba.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "numpy.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "nuxt.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "openai.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "opencv-python.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "pandas.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "pdoc.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "peewee.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "phoenix.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "php.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "pillow.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "playwright.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "plotly.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "poetry.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "pony.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "postgresql.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "postman.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "prisma.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "puppeteer.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "pydantic.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "pygame.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "pylint.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "pyqt.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "pyramid.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "pyright.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "pyside.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "pytest.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "python.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "pytorch.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "qwik.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "railway.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "react-mobx.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "react-native.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "react-query.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "react-redux.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "react.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "redis.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "redux.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "remix.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "requests.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "rich.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "riverpod.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "rocket.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "ros.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "ruby.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "rust.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "sanic.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "scikit-image.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "scikit-learn.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "scipy.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "scrapy.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "seaborn.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "selenium.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "sentry.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "servemux.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "setuptools.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "shadcn.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "smolagents.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "socket-io.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "solidity.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "solidjs.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "spacy.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "sphinx.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "spring.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "springboot.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "sqlalchemy.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "sqlite.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "statsmodels.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "streamlit.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "stripe.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "supabase.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "svelte.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "sveltekit.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "tailwind.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "tauri.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "tensorflow.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "terraform.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "three-js.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "tinygrad.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "tkinter.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "tornado.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "tortoise-orm.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "tqdm.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "transformers.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "trio.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "trpc.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "turbopack.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "typer.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "typescript.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "unittest.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "unity.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "unreal-engine.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "vercel.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "vim.md",
+          "why": "unexpected extension \".md\" (want \".mdc\""
+        },
+        {
+          "path": "vim.md",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "vim.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "vite.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "vitest.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "vllm.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "vue.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "vue3.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "webpack.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "xgboost.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "zod.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "zsh.mdc",
+          "why": "loose file inside a directory-component layout"
+        },
+        {
+          "path": "zustand.mdc",
+          "why": "loose file inside a directory-component layout"
+        }
+      ]
+    }
+  ],
+  "hint": "entries were left behind; for guided completion run the harnessator-harvest skill in your harness, then ratify with 'harnessator harvest --commit /tmp/bridge-CURSOR_RULES-c0rwv8i6/bridge'"
+}
